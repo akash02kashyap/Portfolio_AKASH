@@ -1,0 +1,22 @@
+.Dash{
+    /* background-: linear-gradient(
+        to right top,
+        #3654e7,
+        #5c52e9,
+        #784feb,
+        #914aeb,
+        #a745ea,
+        #7d68fb,
+        #4d7fff,
+        #0091ff,
+        #00acfd,
+        #00c8a3,
+        #6bcc70,
+    ); */
+    height: 6px;
+    width: 100%;
+    border-radius: 3px;
+    margin: 16px 0px;
+    background-color: rgb(35, 4, 64);
+    box-shadow: 4px 3px 9px;
+}

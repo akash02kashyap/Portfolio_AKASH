@@ -1,0 +1,102 @@
+.Project-card{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+    padding: 8px 0px;
+}
+
+.Project-photo{
+    width: 40%;
+    border-radius: 7%;
+    box-shadow: 4px 8px 30px;
+    
+}
+
+.Project-info{
+margin-right: 24px;
+}
+
+.Project-title{
+    font-size: 38px;
+    font-weight: 800;
+    font-family: auto;
+
+}
+
+.Project-tags{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+    
+}
+
+.Tag{
+    padding: 4px 8px;
+    background-color: darkslategray;
+    border-radius: 4px;
+    margin: 6px;
+    margin-bottom: 4px;
+    color: bisque;
+
+}
+
+.Project-links a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.Project-links{
+    margin-top: 6px;
+    display: flex;
+    
+}
+
+.Link-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal; 
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 4px ;
+    font-size: 16px;
+    margin-right: 6px;
+    color: white;
+}
+
+.Link-button:hover{
+    background-color: red;
+
+}
+.Link-button i{
+    display: flex;
+    align-items: center;
+    mask-repeat: 4px;
+}
+ 
+@media only screen and (max-width: 720px) {
+    .Project-photo{
+        width: 70%;
+    }
+    .Project-card{
+        flex-direction: column;
+
+    }
+
+    .Project-info{
+        margin-left: 0px;
+        margin-top: 12px;
+
+    }
+
+    .Project-tags{
+        max-width: 100%;
+        padding-bottom: 40px;
+        
+    }
+}
+    
+

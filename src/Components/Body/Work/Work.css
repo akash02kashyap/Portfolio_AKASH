@@ -1,0 +1,28 @@
+.work{
+    font-size: 32px;
+    font-weight: 700;
+    background-color: honeydew;
+    font-family: math;
+    height: 48px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.works{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1{
+    padding-top: 49px;
+}
+
+h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+span{
+    font-weight: bolder;   
+}

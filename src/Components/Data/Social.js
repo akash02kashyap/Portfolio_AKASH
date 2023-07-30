@@ -1,0 +1,32 @@
+export const SocialData=[
+    {
+        platform:"Instragram",
+        link:"www.instragram.com/aple",
+        icon:require('../../assets/Icons/instagram.png'),
+    },
+    {
+        platform:"Github",
+        link:"",
+        icon:require('../../assets/Icons/github.png'),
+    },
+    {
+        platform:"Linkedin",
+        link:"https://www.linkedin.com/in/akash-kashyap-801721266",
+        icon:require('../../assets/Icons/linkedin.png'),
+    },
+    {
+        platform:"Facebook",
+        link:"www.facebook.com/aple",
+        icon:require('../../assets/Icons/facebook.png'),
+    },
+    {
+        platform:"Twitter",
+        link:"www.twitter.com/aple",
+        icon:require('../../assets/Icons/twitter.png'),
+    },
+    {
+        platform:"Gmail",
+        link:"www.gmail.com",
+        icon:require('../../assets/Icons/5a35539e960e45.2336263715134442546146.png'),
+    },
+];
